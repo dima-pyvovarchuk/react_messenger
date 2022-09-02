@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react_messenger/static/css/main.073c9b0a.css",
-    "main.js": "/react_messenger/static/js/main.a4461d46.js",
-    "static/js/787.4418018c.chunk.js": "/react_messenger/static/js/787.4418018c.chunk.js",
-    "static/media/logo.svg": "/react_messenger/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react_messenger/static/css/main.732247f5.css",
+    "main.js": "/react_messenger/static/js/main.bd8f22cd.js",
+    "static/media/chat-background.png": "/react_messenger/static/media/chat-background.5fe5dd5a6eecce652669.png",
+    "static/media/photo1.jpg": "/react_messenger/static/media/photo1.e360501f3c25dd5014b7.jpg",
+    "static/media/checked.png": "/react_messenger/static/media/checked.dc6fda5f5f69d3d218b1.png",
     "index.html": "/react_messenger/index.html",
-    "main.073c9b0a.css.map": "/react_messenger/static/css/main.073c9b0a.css.map",
-    "main.a4461d46.js.map": "/react_messenger/static/js/main.a4461d46.js.map",
-    "787.4418018c.chunk.js.map": "/react_messenger/static/js/787.4418018c.chunk.js.map"
+    "main.732247f5.css.map": "/react_messenger/static/css/main.732247f5.css.map",
+    "main.bd8f22cd.js.map": "/react_messenger/static/js/main.bd8f22cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a4461d46.js"
+    "static/css/main.732247f5.css",
+    "static/js/main.bd8f22cd.js"
   ]
 }
