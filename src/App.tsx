@@ -1,9 +1,17 @@
-import React from 'react';
-import './App.scss';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { AppPage } from './components/AppPage';
+import { Chat } from './components/Chat';
+import { NotFoundPage } from './components/NotFoundPage';
 
 function App() {
   return (
-    <h1>Home</h1>
+    <Routes>
+      <Route path="/" element={<AppPage />}>
+        <Route path=":chatId" element={<Chat />} />
+      </Route>
+      <Route path="/home" element={<Navigate to="/" replace />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
   );
 }
 

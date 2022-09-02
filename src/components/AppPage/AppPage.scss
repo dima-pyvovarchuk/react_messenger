@@ -1,0 +1,16 @@
+.AppPage {
+  display: flex;
+}
+
+.Warning-container {
+  display: flex;
+  width: 70%;
+  background-image: url(../../images/chat-background.png);
+}
+
+.Warning {
+  margin: 0 auto;
+  align-self: center;
+  font-size: 48px;
+  color: #555;
+}

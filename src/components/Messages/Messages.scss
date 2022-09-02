@@ -1,0 +1,43 @@
+.Messages {
+  &__container {
+    display: flex;
+    margin-bottom: 30px;
+
+    &--author {
+      justify-content: flex-end;
+    }
+  }
+
+  &__text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 10px 15px;
+    min-width: 100px;
+    max-width: 400px;
+    min-height: 50px;
+    height: max-content;
+    white-space: pre-wrap;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #000;
+
+    &--author {
+      background-color: #9bc4f0;
+      color: #000;
+    }
+  }
+
+  &__date {
+    font-size: 14px;
+    position: absolute;
+    bottom: -25px;
+
+    color: #000;
+
+    &--author {
+      right: 25px;
+    }
+  }
+}

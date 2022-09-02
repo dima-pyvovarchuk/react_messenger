@@ -1,0 +1,24 @@
+.photo {
+  position: relative;
+  width: max-content;
+  
+  &__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+  }
+
+  &--ticked::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    background-image: url(../images/checked.png);
+    background-size: contain;
+    
+    width: 20px;
+    height: 20px;
+  }
+}

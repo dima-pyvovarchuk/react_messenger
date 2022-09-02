@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+
+    "user": {
+      "id": "NlwLU8",
+      "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/220px-Leonardo_Dicaprio_Cannes_2019.jpg",
+      "userName": "Leonardo DiCaprio"
+    },
+
+    "messages": [
+      { 
+        "id": "1",
+        "isAuthor": true,
+        "text": "Hello!",
+        "date": "5/22/20 4:00 AM"
+      }
+      ,
+      {
+        "id": "2",
+        "isAuthor": true,
+        "text": "How are you?",
+        "date": "5/22/20 4:05 AM"
+      }
+      ,
+      {
+        "id": "3",
+        "isAuthor": false,
+        "text": "I'm OK!",
+        "date": "5/22/20 5:00 AM"
+
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+
+    "user": {
+      "id": "EKzZuR",
+      "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Johnny_Depp-2757_%28cropped%29.jpg/220px-Johnny_Depp-2757_%28cropped%29.jpg",
+      "userName": "Johnny Depp"
+    },
+
+
+    "messages": [
+      {
+        "id": "1",
+        "isAuthor": true,
+        "text": "Hi!",
+        "date": "4/15/21 5:00 AM"
+      },
+      {
+        "id": "2",
+        "isAuthor": false,
+        "text": "Goodbye!",
+        "date": "4/15/21 5:05 AM"
+      }
+    ]
+  },
+
+  {
+    "id": "3",
+
+    "user": {
+      "id": "gStI4Y",
+      "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brad_Pitt_2019_by_Glenn_Francis.jpg/220px-Brad_Pitt_2019_by_Glenn_Francis.jpg",
+      "userName": "Brad Pitt"
+    },
+
+
+    "messages": [
+      {
+        "id": "1",
+        "isAuthor": false,
+        "text": "Lorem ipsum dolor sit amet",
+        "date": "2/22/21 6:00 AM"
+      },
+      {
+        "id": "2",
+        "isAuthor": true,
+        "text": "Ut enim ad minim veniam",
+        "date": "2/22/21 6:20 AM"
+      }
+    ]
+  }
+]

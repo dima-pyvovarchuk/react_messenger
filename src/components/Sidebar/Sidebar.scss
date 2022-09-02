@@ -1,0 +1,50 @@
+@import '../../styles/utils/mixins';
+
+.Sidebar {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+
+  @include onDesktop {
+    width: 30vw;
+  }
+}
+
+.Search {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #f7f7f7;
+
+  &__photo {
+    margin-bottom: 15px;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    outline: none;
+    background-color: #fff;
+  }
+
+  &__input {
+    font-size: 18px;
+    height: 30px;
+    width: 90%;
+    border: none;
+    background-color: inherit;
+    outline: none;
+  }
+
+  &__button {
+      background-image: url(../../images/search-icon.png);
+      margin: 0 5px 0 5px;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+    }
+}
